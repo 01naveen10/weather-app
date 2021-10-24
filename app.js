@@ -25,6 +25,6 @@ app.post("/", function(req, res) {
     });
 });
 
-app.listen(2500, function() {
+app.listen(process.env.PORT, function() {
     console.log(`server is running on port 2500`);
 });
